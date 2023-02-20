@@ -24,10 +24,10 @@ int main(void)
 					continue;
 
 				putchar(',');
-				putchart(' ');
+				putchar(' ');
 			}
 		}
 	}
 	putchar('\n');
-	retun(0);
+	return(0);
 }
