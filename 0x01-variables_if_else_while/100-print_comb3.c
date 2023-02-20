@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints in acsending order
+ * main - Start program
  *
  * Return: Always 0.
  */
@@ -18,7 +18,7 @@ int main(void)
 
 			if (digit1 == 8 && digit2 == 9)
 				continue;
-			
+
 			putchar(',');
 			putchar(' ');
 		}
@@ -27,4 +27,5 @@ int main(void)
 	putchar('\n');
 
 	return (0);
+}
 
