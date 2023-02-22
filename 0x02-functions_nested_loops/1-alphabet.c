@@ -2,8 +2,6 @@
 /**
   *print_alphabet - prints the alphabet
   */
-int main (void)
-{
 void print_alphabet(void)
 {
 	char letter;
@@ -12,5 +10,4 @@ void print_alphabet(void)
 		_putchar(letter);
 
 	_putchar('\n');
-}
 }
